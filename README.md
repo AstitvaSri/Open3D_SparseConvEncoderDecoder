@@ -28,3 +28,7 @@ python train.py --data_path ../data --ckpt_path ./logs/SparseEncDec_Semantic3D_t
 ```bash
 python test.py --data_path ../data --ckpt_path ./logs/SparseEncDec_Semantic3D_torch/checkpoint
 ```
+##Visualizing Prediction
+```bash
+python visualize_test.py
+```
