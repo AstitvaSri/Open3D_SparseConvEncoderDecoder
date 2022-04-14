@@ -9,6 +9,8 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 * Submanifold Sparse Convolution is utilised.
 * Contains code for 3D visualization of the prediction.
 
+## Results
+
 The task was to overfit a single point cloud sample. The provided model ran for **300 epochs** and the final reported accuracy of overfitted model is **0.79**.
 
 ## Setup
