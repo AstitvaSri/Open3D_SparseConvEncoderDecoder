@@ -1,4 +1,4 @@
-# SparseConvEncoderDecoder using Open3D-ML
+# 3D Point Cloud Semantic Segmentation using SparseConv Encoder-Decoder
 The source code for 3D point cloud semantic segmentation using SparseConv, required for GSOC qualification assignment.
 
 
