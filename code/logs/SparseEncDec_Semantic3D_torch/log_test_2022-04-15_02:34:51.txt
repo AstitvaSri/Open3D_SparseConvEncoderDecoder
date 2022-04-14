@@ -1,0 +1,3 @@
+ckpt_path not given. Restore from the latest ckpt
+Loading checkpoint ./logs/SparseEncDec_Semantic3D_torch/checkpoint/ckpt_00300.pth
+Started testing

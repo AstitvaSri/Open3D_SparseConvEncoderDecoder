@@ -1,0 +1,226 @@
+ckpt_path not given. Restore from the latest ckpt
+Loading checkpoint ./logs/SparseEncDec_Semantic3D_torch/checkpoint/ckpt_00300.pth
+Loading checkpoint optimizer_state_dict
+Loading checkpoint scheduler_state_dict
+Writing summary in train_log/00233_SparseEncDec_Semantic3D_torch.
+Started training
+=== EPOCH 0/500 ===
+Loss train: 0.601  eval: 0.601
+Mean acc train: 0.757  eval: 0.758
+Mean IoU train: 0.575  eval: 0.575
+Epoch   0: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 1/500 ===
+Loss train: 0.601  eval: 0.600
+Mean acc train: 0.758  eval: 0.758
+Mean IoU train: 0.575  eval: 0.575
+=== EPOCH 2/500 ===
+Loss train: 0.600  eval: 0.600
+Mean acc train: 0.758  eval: 0.758
+Mean IoU train: 0.575  eval: 0.575
+=== EPOCH 3/500 ===
+Loss train: 0.600  eval: 0.599
+Mean acc train: 0.758  eval: 0.758
+Mean IoU train: 0.575  eval: 0.575
+=== EPOCH 4/500 ===
+Loss train: 0.599  eval: 0.598
+Mean acc train: 0.758  eval: 0.758
+Mean IoU train: 0.575  eval: 0.576
+=== EPOCH 5/500 ===
+Loss train: 0.598  eval: 0.598
+Mean acc train: 0.758  eval: 0.758
+Mean IoU train: 0.576  eval: 0.576
+Epoch   5: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 6/500 ===
+Loss train: 0.598  eval: 0.597
+Mean acc train: 0.758  eval: 0.759
+Mean IoU train: 0.576  eval: 0.576
+=== EPOCH 7/500 ===
+Loss train: 0.597  eval: 0.597
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.576  eval: 0.576
+=== EPOCH 8/500 ===
+Loss train: 0.597  eval: 0.596
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.576  eval: 0.577
+=== EPOCH 9/500 ===
+Loss train: 0.596  eval: 0.596
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.577  eval: 0.577
+=== EPOCH 10/500 ===
+Loss train: 0.596  eval: 0.595
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.577  eval: 0.577
+Epoch  10: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 11/500 ===
+Loss train: 0.595  eval: 0.595
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.577  eval: 0.577
+=== EPOCH 12/500 ===
+Loss train: 0.595  eval: 0.594
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.577  eval: 0.578
+=== EPOCH 13/500 ===
+Loss train: 0.594  eval: 0.594
+Mean acc train: 0.759  eval: 0.759
+Mean IoU train: 0.578  eval: 0.578
+=== EPOCH 14/500 ===
+Loss train: 0.594  eval: 0.593
+Mean acc train: 0.759  eval: 0.760
+Mean IoU train: 0.578  eval: 0.578
+=== EPOCH 15/500 ===
+Loss train: 0.593  eval: 0.593
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.578  eval: 0.578
+Epoch  15: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 16/500 ===
+Loss train: 0.593  eval: 0.592
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.578  eval: 0.578
+=== EPOCH 17/500 ===
+Loss train: 0.592  eval: 0.592
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.578  eval: 0.579
+=== EPOCH 18/500 ===
+Loss train: 0.592  eval: 0.591
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.579  eval: 0.579
+=== EPOCH 19/500 ===
+Loss train: 0.591  eval: 0.591
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.579  eval: 0.579
+=== EPOCH 20/500 ===
+Loss train: 0.591  eval: 0.590
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.579  eval: 0.579
+Epoch  20: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 21/500 ===
+Loss train: 0.590  eval: 0.590
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.579  eval: 0.579
+=== EPOCH 22/500 ===
+Loss train: 0.590  eval: 0.589
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.579  eval: 0.580
+=== EPOCH 23/500 ===
+Loss train: 0.589  eval: 0.589
+Mean acc train: 0.760  eval: 0.760
+Mean IoU train: 0.580  eval: 0.580
+=== EPOCH 24/500 ===
+Loss train: 0.589  eval: 0.589
+Mean acc train: 0.760  eval: 0.761
+Mean IoU train: 0.580  eval: 0.580
+=== EPOCH 25/500 ===
+Loss train: 0.589  eval: 0.588
+Mean acc train: 0.761  eval: 0.761
+Mean IoU train: 0.580  eval: 0.580
+Epoch  25: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 26/500 ===
+Loss train: 0.588  eval: 0.588
+Mean acc train: 0.761  eval: 0.761
+Mean IoU train: 0.580  eval: 0.581
+=== EPOCH 27/500 ===
+Loss train: 0.588  eval: 0.587
+Mean acc train: 0.761  eval: 0.761
+Mean IoU train: 0.581  eval: 0.581
+=== EPOCH 28/500 ===
+Loss train: 0.587  eval: 0.587
+Mean acc train: 0.761  eval: 0.761
+Mean IoU train: 0.581  eval: 0.581
+=== EPOCH 29/500 ===
+Loss train: 0.587  eval: 0.586
+Mean acc train: 0.761  eval: 0.761
+Mean IoU train: 0.581  eval: 0.581
+=== EPOCH 30/500 ===
+Loss train: 0.586  eval: 0.586
+Mean acc train: 0.761  eval: 0.762
+Mean IoU train: 0.581  eval: 0.581
+Epoch  30: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 31/500 ===
+Loss train: 0.586  eval: 0.586
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.581  eval: 0.582
+=== EPOCH 32/500 ===
+Loss train: 0.586  eval: 0.585
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.582
+=== EPOCH 33/500 ===
+Loss train: 0.585  eval: 0.585
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.582
+=== EPOCH 34/500 ===
+Loss train: 0.585  eval: 0.584
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.582
+=== EPOCH 35/500 ===
+Loss train: 0.584  eval: 0.584
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.582
+Epoch  35: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 36/500 ===
+Loss train: 0.584  eval: 0.584
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.582
+=== EPOCH 37/500 ===
+Loss train: 0.584  eval: 0.583
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.582  eval: 0.583
+=== EPOCH 38/500 ===
+Loss train: 0.583  eval: 0.583
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.583  eval: 0.583
+=== EPOCH 39/500 ===
+Loss train: 0.583  eval: 0.583
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.583  eval: 0.583
+=== EPOCH 40/500 ===
+Loss train: 0.583  eval: 0.582
+Mean acc train: 0.762  eval: 0.762
+Mean IoU train: 0.583  eval: 0.583
+Epoch  40: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 41/500 ===
+Loss train: 0.582  eval: 0.582
+Mean acc train: 0.762  eval: 0.763
+Mean IoU train: 0.583  eval: 0.583
+=== EPOCH 42/500 ===
+Loss train: 0.582  eval: 0.582
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.583  eval: 0.583
+=== EPOCH 43/500 ===
+Loss train: 0.582  eval: 0.581
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.583  eval: 0.584
+=== EPOCH 44/500 ===
+Loss train: 0.581  eval: 0.581
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+=== EPOCH 45/500 ===
+Loss train: 0.581  eval: 0.581
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+Epoch  45: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 46/500 ===
+Loss train: 0.581  eval: 0.580
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+=== EPOCH 47/500 ===
+Loss train: 0.580  eval: 0.580
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+=== EPOCH 48/500 ===
+Loss train: 0.580  eval: 0.580
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+=== EPOCH 49/500 ===
+Loss train: 0.580  eval: 0.579
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+=== EPOCH 50/500 ===
+Loss train: 0.579  eval: 0.579
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.584
+Epoch  50: save ckpt to ./logs/SparseEncDec_Semantic3D_torch/checkpoint
+=== EPOCH 51/500 ===
+Loss train: 0.579  eval: 0.579
+Mean acc train: 0.763  eval: 0.763
+Mean IoU train: 0.584  eval: 0.585
+=== EPOCH 52/500 ===
