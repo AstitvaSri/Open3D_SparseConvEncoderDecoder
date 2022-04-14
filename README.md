@@ -11,7 +11,9 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 
 ## Results
 
-The task was to overfit a single point cloud sample. The provided model ran for **300 epochs** and the final reported accuracy of overfitted model is **0.79**.
+The task was to overfit a single point cloud sample. The provided model ran for **300 epochs** and following are the reported metrices:
+
+**$Test accuracy of the overfitted model$ = 0.79**
 
 ## Setup
 
