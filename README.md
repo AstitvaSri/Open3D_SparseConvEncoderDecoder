@@ -7,6 +7,7 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 * Integrated with [Open3D-ML](http://www.open3d.org/docs/release/open3d_ml.html).
 * Closely follows the pipeline of models implemented in Open3D-ML.
 * Submanifold Sparse Convolution is adopted for better performance.
+* GPU support.
 * Contains code for 3D visualization of the prediction.
 
 ## Results
