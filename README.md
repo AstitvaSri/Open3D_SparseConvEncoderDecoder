@@ -21,7 +21,7 @@ The task was to overfit a single point cloud sample. The provided model ran for 
 ## Setup
 
 ```bash
-# clone the repository
+# clone this repository
 git clone https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder.git
 
 # environment setup
