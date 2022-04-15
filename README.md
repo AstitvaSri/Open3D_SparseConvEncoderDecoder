@@ -56,22 +56,33 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 ## Setup
 
 ```bash
+cd $HOME
+
 # clone this repository
 git clone https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder.git
 
-# environment setup
-cd Open3D_SparseConvEncoderDecoder
+# anaconda environment
+cd $HOME/Open3D_SparseConvEncoderDecoder
 conda create -f environment.yml
+conda activate open3dml
+
+# clone Open3D-ML
+git clone https://github.com/isl-org/Open3D-ML.git
+export OPEN3D_ML_ROOT=$HOME/Open3D-ML
 ```
+
 ## Training
 ```bash
+cd $HOME/Open3D_SparseConvEncoderDecoder/code
 python train.py --data_path ../data --ckpt_path ./logs/SparseEncDec_Semantic3D_torch/checkpoint
 ```
 ## Testing
 ```bash
+cd $HOME/Open3D_SparseConvEncoderDecoder/code
 python test.py --data_path ../data --ckpt_path ./logs/SparseEncDec_Semantic3D_torch/checkpoint
 ```
 ## Visualizing Prediction
 ```bash
+cd $HOME/Open3D_SparseConvEncoderDecoder/code
 python visualize_test.py
 ```
