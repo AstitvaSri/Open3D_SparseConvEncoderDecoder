@@ -12,10 +12,11 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 ## Results
 
 The task was to overfit a single point cloud sample. The implemented model ran for **300 epochs** and following are the final reported metrices:\
-**Final Training Loss = 0.601**\
-**Final Validation Loss = 0.600**\
+**Final Training Loss:** 0.601\
+**Final Validation Loss:** 0.600\
 **Final Mean accuracy:** Train = 0.757, Validation = 0.758\
 **Final Mean IOU:** Train = 0.575, Validation = 0.575\
+\\
 **Test accuracy of the overfitted model = 0.793**
 
 <kbd>
