@@ -26,6 +26,10 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 * Weighted-cross-entropy loss works better and provides easier convergence as the given sample point cloud has **class-imbalance** problem. When all the classes were weighted equally, the model seemed to be stuck in a local minima with mean accuracy as low as **0.1**. First, I tried [sklearn's compute_class_weight](https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html) function, but it didn't help the model to come out of local minima. Finally, I used **number of points per class as the class-weights** and the model started converging.
 * Using a larger learning rate also seemed to be one of the reasons leading to poor convergence as the model just oscillates back and forth. Smaller learning rate with exponential decay proved useful.
 
+## Plots
+### Training | Validation Loss
+![](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png)  |  ![](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png)
+
 ## Setup
 
 ```bash
