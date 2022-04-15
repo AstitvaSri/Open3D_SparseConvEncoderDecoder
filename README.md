@@ -19,9 +19,8 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 **Mean IOU:** Train = 0.575, Validation = 0.575\
 **Test accuracy of the overfitted model = 0.793**
 
-![Alt Text]()
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif" width="720">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif" width="1920">
 </kbd>
 
 ## Insights
@@ -39,7 +38,8 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 </kbd>
 
 ### Training & Validation Accuracy
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
+<kbd>
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
 </kbd>
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png">
