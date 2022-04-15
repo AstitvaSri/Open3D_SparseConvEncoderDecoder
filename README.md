@@ -27,7 +27,7 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 * Using a larger learning rate also seemed to be one of the reasons leading to poor convergence as the model just oscillates back and forth. Smaller learning rate with exponential decay proved useful.
 
 ## Plots
-### Training | Validation Loss
+### Training & Validation Loss
 ![](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png) ![](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png)
 
 ## Setup
