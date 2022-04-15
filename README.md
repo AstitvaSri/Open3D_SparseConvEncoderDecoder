@@ -12,10 +12,10 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 ## Results
 
 The task was to overfit a single point cloud sample. The implemented model ran for **300 epochs** and following are the final reported metrices:\
-**Training Loss = 0.601**\
-**Validation Loss = 0.600**\
-**Mean accuracy:** Train = 0.757, Validation = 0.758\
-**Mean IOU:** Train = 0.575, Validation = 0.575\
+**Final Training Loss = 0.601**\
+**Final Validation Loss = 0.600**\
+**Final Mean accuracy:** Train = 0.757, Validation = 0.758\
+**Final Mean IOU:** Train = 0.575, Validation = 0.575\
 **Test accuracy of the overfitted model = 0.793**
 
 <kbd>
@@ -29,8 +29,7 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 
 ## Plots
 ### Training & Validation Loss
-**Training Loss = 0.601**\
-**Validation Loss = 0.600**\
+**Final Loss:** Train = 0.601, Validation = 0.600
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
 </kbd>
@@ -39,6 +38,7 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 </kbd>
 
 ### Training & Validation Accuracy
+**Final Mean accuracy:** Train = 0.757, Validation = 0.758
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
 </kbd>
@@ -47,6 +47,7 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 </kbd>
 
 ### Training & Validation IoU
+**Final Mean IOU:** Train = 0.575, Validation = 0.575
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_IOU.png">
 </kbd>
