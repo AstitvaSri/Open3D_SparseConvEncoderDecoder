@@ -19,7 +19,10 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 **Mean IOU:** Train = 0.575, Validation = 0.575\
 **Test accuracy of the overfitted model = 0.793**
 
-![Alt Text](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif)
+![Alt Text]()
+<kbd>
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif" width="720">
+</kbd>
 
 ## Insights
 * Submanifold SparseConv converges faster as it convolves only when kernel's center is at the active site.
@@ -29,24 +32,25 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 ## Plots
 ### Training & Validation Loss
 <kbd>
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
 </kbd>
 <kbd>
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png">
 </kbd>
 
 ### Training & Validation Accuracy
 <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
 </kbd>
 <kbd>
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png">
 </kbd>
 
 ### Training & Validation IoU
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_IOU.png">
+<kbd>
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_IOU.png">
 </kbd>
 <kbd>
-<img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_IOU.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_IOU.png">
 </kbd>
 
 ## Setup
