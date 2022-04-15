@@ -29,6 +29,8 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 
 ## Plots
 ### Training & Validation Loss
+**Training Loss = 0.601**\
+**Validation Loss = 0.600**\
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
 </kbd>
