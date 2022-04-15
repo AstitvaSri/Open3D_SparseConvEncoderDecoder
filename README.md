@@ -16,7 +16,6 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 **Final Validation Loss:** 0.600\
 **Final Mean accuracy:** Train = 0.757, Validation = 0.758\
 **Final Mean IOU:** Train = 0.575, Validation = 0.575\
-\\
 **Test accuracy of the overfitted model = 0.793**
 
 <kbd>
