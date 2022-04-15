@@ -25,9 +25,6 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 * Submanifold SparseConv converges faster as it convolves only when kernel's center is at the active site.
 * Wighted cross entropy loss works better and provides convergence. When all the classes are weighted equally, the network seems to be stuck in a local minima with mean accuracy as low as ** 0.1**. First, I tried [sklearn's compute_class_weight](https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html) function, but it didn't help the network to come out of local minima. Finally, I used number of points per class as the class-weights and the network started converging.
 
-
-![Alt Text](https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif)
-
 ## Setup
 
 ```bash
