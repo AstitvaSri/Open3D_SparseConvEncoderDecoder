@@ -29,27 +29,22 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 
 ## Plots
 ### Training & Validation Loss
-Final Loss (Training) = 0.601
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
 </kbd>
-Final Loss (Validation) = 0.600
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png">
 </kbd>
 
 ### Training & Validation Accuracy
-Final Mean Accuracy (Training) = 0.757
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
 </kbd>
-Final Mean Accuracy (Validation) = 0.758
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png">
 </kbd>
 
 ### Training & Validation IoU
-**Final Mean IOU:** Train = 0.575, Validation = 0.575
 <kbd>
   <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_IOU.png">
 </kbd>
