@@ -6,7 +6,6 @@ The source code for 3D point cloud semantic segmentation using SparseConv, requi
 
 * Integrated with [Open3D-ML](http://www.open3d.org/docs/release/open3d_ml.html).
 * Closely follows the pipeline of models implemented in Open3D-ML.
-* Submanifold Sparse Convolution is adopted for faster convergence.
 * GPU support.
 * Contains code for 3D visualization of the prediction.
 
@@ -25,8 +24,8 @@ The task was to overfit a single point cloud sample. The implemented model ran f
 
 ## Insights
 * Submanifold SparseConv converges faster as it convolves only when kernel's center is at the active site.
-* Weighted-cross-entropy loss works better and provides easier convergence as the given sample point cloud has **class-imbalance** problem. When all the classes were weighted equally, the model seemed to be stuck in a local minima with mean accuracy as low as **0.1**. First, I tried [sklearn's compute_class_weight](https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html) function, but it didn't help the model to come out of local minima. Finally, I used **number of points per class as the class-weights** and the model started converging.
-* Using a larger learning rate also seemed to be one of the reasons leading to poor convergence as the model just oscillates back and forth. Smaller learning rate with exponential decay proved useful.
+* Weighted-cross-entropy loss works better and provides easier convergence as the given sample point cloud has **class-imbalance** problem. When all the classes were weighted equally, the model seemed to be stuck in a local minima with mean accuracy as low as **0.1**. First, I tried [sklearn's compute_class_weight](https://scikit-learn.org/stable/modules/generated/sklearn.utils.class_weight.compute_class_weight.html) function, but it didn't help the model to come out of the local minima. Finally, I used **number of points per class as the class-weights** and the model started converging.
+* Using a larger learning rate also seemed to be one of the reasons leading to poor convergence, as the model just oscillates back and forth. Smaller learning rate with exponential decay proved useful.
 
 ## Plots
 ### Training & Validation Loss
