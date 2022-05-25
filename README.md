@@ -10,7 +10,7 @@
 
 ## Results
 
-The task was to overfit a single point cloud sample. The implemented model ran for **300 epochs** and following are the final reported metrices:\
+The provided model is overfitted a single point cloud sample, which ran for **300 epochs** and following are the final reported metrices:\
 **Final Training Loss:** 0.601\
 **Final Validation Loss:** 0.600\
 **Final Mean accuracy:** Train = 0.757, Validation = 0.758\
