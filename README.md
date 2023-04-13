@@ -18,7 +18,7 @@ The provided model is overfitted a single point cloud sample, which ran for **30
 **Test accuracy of the overfitted model = 0.793**
 
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif" width="1920">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/pcd.gif" width="100%">
 </kbd>
 
 ## Insights
