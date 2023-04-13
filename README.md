@@ -29,18 +29,18 @@ The provided model is overfitted a single point cloud sample, which ran for **30
 ## Plots
 ### Training & Validation Loss
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/train_loss.png", widht="100%">
 </kbd>
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_loss.png", widht="100%">
 </kbd>
 
 ### Training & Validation Accuracy
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/training_acc.png", widht="100%">
 </kbd>
 <kbd>
-  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png">
+  <img src="https://github.com/AstitvaSri/Open3D_SparseConvEncoderDecoder/blob/main/plots/val_acc.png", widht="100%">
 </kbd>
 
 ### Training & Validation IoU
